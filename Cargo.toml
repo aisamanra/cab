@@ -1,0 +1,6 @@
+[package]
+name = "cab"
+version = "0.1.0"
+authors = ["Getty Ritter <gdritter@galois.com>"]
+
+[dependencies]

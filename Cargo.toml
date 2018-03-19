@@ -1,6 +1,12 @@
 [package]
 name = "cab"
 version = "0.1.0"
-authors = ["Getty Ritter <gdritter@galois.com>"]
+authors = ["Getty Ritter <cab@infinitenegativeutility.com>"]
+license = "BSD3"
+description = "A convenience wrapper for Haskell's new-style builds"
+
+[[bin]]
+path = "src/main.rs"
+name = "cab"
 
 [dependencies]

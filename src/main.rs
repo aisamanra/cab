@@ -49,6 +49,8 @@ fn replace(s: &str) -> Option<String> {
         "bench" => "new-bench".to_owned(),
         "freeze" => "new-freeze".to_owned(),
         "haddock" => "new-haddock".to_owned(),
+        s if s.starts_with("old-") =>
+            s.trim_left_matches("old-").to_owned(),
         _ => None?,
     })
 }

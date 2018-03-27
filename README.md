@@ -1,3 +1,7 @@
+# cab
+
+![stability: experimental](https://img.shields.io/badge/stability-experimental-red.svg)
+
 In short: write `cab build` instead of `cabal new-build`, and save six
 keystrokes.
 
